@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+										UNIVERSITY ERP SYSTEM
+
+This is a comprehensive, full-stack desktop application designed for university management, covering student, instructor, and administrative functions. The application uses Java Swing for the user interface, JDBC for database connectivity, and adheres to a strict Service/DAO/Domain architecture for clean separation of concerns.
+
+
+Prerequisites
+--------------
+You must have the following installed to run this application:
+
+Java Development Kit (JDK): Version 17 or later.
+Apache Maven: Used for dependency management.
+MySQL Server: Running locally.
+
+
+Run the Application
+--------------------
+The main entry point is the App.java file.
+Method: In VS Code, navigate to src/main/java/iiitderp.com/App.java, right-click, and select "Run Java".
+Result: The application will launch the Login Frame.
+
+
+Credentials
+------------
+Admin
+Username/Password: admin1 / admin_pass
+Notes: Used to create new users/courses and toggle Maintenance Mode.
+
+Instructor
+Username/Password: inst1 / inst_pass
+Notes: Used to access Gradebook, Enter Scores, and Compute Finals.
+
+Student
+Username/Password: stu1 / stu1_pass_new
+Username/Password: stu2 / stu2_pass
+Notes: Used to test Registration, Timetable, and Transcript Download.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
